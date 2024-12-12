@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Netflix Clone - Stream your favorite movies, series, and trending content online.">
-    <meta name="keywords" content="Netflix Clone, movies, series, online streaming, trending movies, watch now">
-    <meta name="author" content="Your Name">
-    <title>Netflix Clone - Stream Movies & Series</title>
-
+    <title>Netflix Clone</title>
     <style>
+        
         body {
             background-color: #141414;
             color: white;
@@ -17,6 +14,7 @@
             padding: 0;
         }
 
+        
         header {
             display: flex;
             justify-content: space-between;
@@ -35,6 +33,7 @@
             color: #e50914;
         }
 
+        
         .main-content {
             padding: 20px;
         }
@@ -44,6 +43,7 @@
             margin-bottom: 20px;
         }
 
+       
         .featured-movie {
             background-color: #333;
             padding: 40px;
@@ -63,6 +63,7 @@
             background-color: #f40612;
         }
 
+       
         .trending-now {
             margin-top: 40px;
         }
@@ -80,6 +81,7 @@
             padding: 10px 0;
         }
 
+        
         footer {
             text-align: center;
             background-color: #141414;
@@ -100,24 +102,26 @@
 </head>
 <body>
 
+   
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#series">Series</a>
-            <a href="#movies">Movies</a>
-            <a href="#my-list">My List</a>
-        </nav>
+        <a href="#">Home</a>
+        <a href="#">Series</a>
+        <a href="#">Movies</a>
+        <a href="#">My List</a>
     </header>
 
-    <main class="main-content">
-        <h1>Welcome to Netflix Clone</h1>
 
-        <section class="featured-movie">
-            <h2>Featured Movie</h2>
+    <div class="main-content">
+        <h2>Welcome to Netflix Clone</h2>
+
+        
+        <div class="featured-movie">
+            <h3>Featured Movie</h3>
             <button>Watch Now</button>
-        </section>
+        </div>
 
-        <section class="trending-now">
+    
+        <div class="trending-now">
             <h3>Trending Now</h3>
             <ul class="movie-list">
                 <li>Movie 1</li>
@@ -126,12 +130,12 @@
                 <li>Movie 4</li>
                 <li>Movie 5</li>
             </ul>
-        </section>
-    </main>
-
+        </div>
+    </div>
     <footer>
         <p>&copy; 2024 Netflix Clone. All Rights Reserved.</p>
-        <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a> | <a href="#">Terms</a>
     </footer>
+
 </body>
 </html>
